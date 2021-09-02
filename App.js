@@ -11,7 +11,7 @@ export default function App() {
   const [countries, setCountries] = useState([]);
   const [euro, setEuro] = useState('')
   useEffect(() => {
-    const url = 'http://api.exchangeratesapi.io/v1/latest?access_key=eddb1f22cb5cd468457585b691802d84&format=1'
+    const url = 'http://api.exchangeratesapi.io/v1/latest?access_key="YOUR API KEY"&format=1'
     fetch(url)
       .then(response => response.json())
       .then(data => setCountries(Object.keys(data.rates)))
@@ -20,7 +20,7 @@ export default function App() {
   )
 
   useEffect(() => {
-    const url = 'http://api.exchangeratesapi.io/v1/latest?access_key=eddb1f22cb5cd468457585b691802d84&format=1&symbols=' + selectedLanguage;
+    const url = 'http://api.exchangeratesapi.io/v1/latest?access_key="YOUR API KEY"&format=1&symbols=' + selectedLanguage;
     fetch(url)
       .then(response => response.json())
       .then(data => setRate(Object.values(data.rates)[0]))

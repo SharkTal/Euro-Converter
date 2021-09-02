@@ -4,5 +4,7 @@
 <p>or</p>
 <p>$ yarn add @react-native-picker/picker</p>
 <h2>Get currency codes to picker</h2>
-<p>Used Object.keys and Object.values method</p>
+<p>Used Object.keys method to pick country currency code </p>
+<p>Used Object.values method to pick country currency rate vs Euro</p>
+
 <p>Check https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys</p>

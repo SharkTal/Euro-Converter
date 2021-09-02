@@ -1,4 +1,6 @@
 # Euro-Converter
+<h2>ExchangeratesAPI</h2>
+<p>https://api.exchangeratesapi.io/latest</p>
 <h2>Picker component from https://github.com/react-native-picker/picker</h2>
 <p>$ npm install @react-native-picker/picker --save</p>
 <p>or</p>
